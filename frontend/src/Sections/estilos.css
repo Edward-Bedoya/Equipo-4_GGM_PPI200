@@ -216,3 +216,61 @@
   margin: 0 5px;
   
 }
+/* ----------------------------------- Contenido Reseñas ----------------------------------- */
+.contenedorDeReseñas{
+  padding: 20px;
+}
+.contenedorDeReseñas h2{
+  text-align: center;
+  font-weight: bold;
+}
+.botonPreguntas{
+  background: none;
+  border: 1px solid #000;
+  border-radius: 7px;
+  padding: 5px;
+  position: relative;
+  left: 80%;
+}
+.preguntas h3{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.todoElContenedorReseñas{
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.contenedorUsuario_Reseñas{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center
+}
+.contenedorPerfil{
+  margin-right: 5px;
+}
+.perfil{
+  width: 50px;
+  height: 50px;
+}
+.comentario{
+  margin-left: 10%;
+}
+.botonesInformacion{
+  display: flex;
+}
+.btnRespuesta{
+  background: none;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+.btnReferencias{
+  margin-left: 8px;
+  width: 30px;
+}
+.btnReferencias:hover{
+  cursor: pointer;
+}
