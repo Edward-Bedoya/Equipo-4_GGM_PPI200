@@ -13,7 +13,8 @@ class Iniciarsesion extends Component {
           <input type="text" placeholder="Usuario o Email" className="infoInput" />
           <input type="text" placeholder="Contraseña" className="infoInput" />
           <div className="elboton">
-          <input type="submit" value="Entrar" className="buttonEnviar" />
+          <button type="button" class="btn btn-dark">Entrar</button>
+          
           </div>
           <p> O </p>
           <p>Si no tienes una cuenta <a href="#"> Click aquí para Registrarse</a></p>

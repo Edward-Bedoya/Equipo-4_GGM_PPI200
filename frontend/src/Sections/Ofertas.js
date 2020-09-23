@@ -12,14 +12,27 @@ class Ofertas extends Component {
                   <div>
                       <h3>{items.Precio}</h3>
                       </div>
-                      <button className="Boton" type="button">Comprar</button>
-                      <button className="Boton" type="button">Info</button>
+                      <button className="btn btn-primary">Comprar</button>
+                <button className="btn btn-secondary">Info</button>
 
 
                   </div>
                   
               );
           })}
+          <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Siguiente</a>
+    </li>
+  </ul>
+</nav>
         </div>
       );
     }

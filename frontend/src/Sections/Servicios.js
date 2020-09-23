@@ -12,8 +12,9 @@ class Servicios extends Component { render() {
              <h3>{items.Precio}</h3>
              <p>{items.Descripcion}</p>
                 </div>
-                <button className="Boton" type="button">Ir</button>
-                 <button className="Boton" type="button">Info</button>
+                <button className="btn btn-primary">Ir</button>
+                <button className="btn btn-secondary">Info</button>
+                 
 
 
                   </div>

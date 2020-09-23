@@ -17,7 +17,8 @@ class Registrarse extends Component {
           <input type="text" placeholder="Verificar Contraseña" className="infoInput" />
           <input type="text" placeholder="Correo Electronico" className="infoInput" />
           <div className="elboton">
-          <input type="submit" value="Comenzar" className="buttonEnviar" />
+          <button className="btn btn-secondary">Entrar</button>
+
           </div>
           <p> O </p>
      <p>Iniciar sin registrarte         

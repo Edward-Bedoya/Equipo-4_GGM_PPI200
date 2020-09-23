@@ -5,6 +5,7 @@ class Productos extends Component {
     render() {
       return(
         <div className="cuido">
+          
           {comida.map((items)=>{
               return(
                   <div className="imgcontenedor">
@@ -13,13 +14,26 @@ class Productos extends Component {
                       <h3>{items.Precio}</h3>
               <p>{items.Descripcion}</p>
                       </div>
-                      <button className="Boton" type="button">Comprar</button>
+                      <button type="button" class="btn btn-dark">Comprar</button>
 
 
                   </div>
                   
               );
           })}
+          <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Siguiente</a>
+    </li>
+  </ul>
+</nav>
         </div>
       );
     }
