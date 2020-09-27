@@ -9,7 +9,6 @@ class Reseñas extends Component{
 			<div>
 			<div className="contenedorDeReseñas">
 				<div>
-					<button type="button" className="botonPreguntas">Hacer una pregunta!!!</button>
 				</div>
 				<h2>Reseñas</h2>
 				<div className="preguntas">
@@ -33,7 +32,7 @@ class Reseñas extends Component{
 						destinatario original</p>
 					</div>	
 					<div className="botonesInformacion">
-						<button type="button" className="btnRespuesta">Responder</button>
+						<button type="button" class="btn btn-primary">Responder</button>
 						<div>
 							<img src={bueno} className="btnReferencias" />
 							<img src={malo} className="btnReferencias" />
@@ -59,7 +58,7 @@ class Reseñas extends Component{
 						destinatario original</p>
 					</div>	
 					<div className="botonesInformacion">
-						<button type="button" className="btnRespuesta">Responder</button>
+						<button type="button" class="btn btn-primary">Responder</button>
 						<div>
 							<img src={bueno} className="btnReferencias" />
 							<img src={malo} className="btnReferencias" />
@@ -85,7 +84,7 @@ class Reseñas extends Component{
 						destinatario original</p>
 					</div>	
 					<div className="botonesInformacion">
-						<button type="button" className="btnRespuesta">Responder</button>
+						<button type="button" class="btn btn-primary">Responder</button>
 						<div>
 							<img src={bueno} className="btnReferencias" />
 							<img src={malo} className="btnReferencias" />
@@ -111,7 +110,7 @@ class Reseñas extends Component{
 						destinatario original</p>
 					</div>	
 					<div className="botonesInformacion">
-						<button type="button" className="btnRespuesta">Responder</button>
+						<button type="button" class="btn btn-primary">Responder</button>
 						<div>
 							<img src={bueno} className="btnReferencias" />
 							<img src={malo} className="btnReferencias" />
@@ -119,7 +118,8 @@ class Reseñas extends Component{
 						</div>
 					</div>	
 				</div>
-			</div>	
+			</div>
+			<button type="button" class="btn btn-outline-success">Hacer Una Pregunta</button>
 			</div>
 		);
 	}

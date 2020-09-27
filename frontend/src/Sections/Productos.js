@@ -5,7 +5,7 @@ class Productos extends Component {
     render() {
       return(
         <div className="cuido">
-          
+          <h2>Productos</h2>
           {comida.map((items)=>{
               return(
                   <div className="imgcontenedor">
