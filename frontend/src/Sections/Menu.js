@@ -51,6 +51,7 @@ class Menu extends Component {
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Iniciar Sesion</a>
           <a class="dropdown-item" href="#">Reseñas</a>
+          <a class="dropdown-item" href="#">Servicios</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Registrarte</a>
         </div>

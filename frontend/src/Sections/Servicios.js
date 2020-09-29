@@ -4,6 +4,7 @@ import servicios from "./img/Serviciosimg"
 class Servicios extends Component { render() {
       return(
     <div className="cuido">
+      <h2>Servicios</h2>
      {servicios.map((items)=>{
         return(
              <div className="imgcontenedor">
@@ -14,13 +15,12 @@ class Servicios extends Component { render() {
                 </div>
                 <button className="btn btn-primary">Ir</button>
                 <button className="btn btn-secondary">Info</button>
-                 
-
 
                   </div>
                   
               );
           })}
+          <button type="button" class="btn btn-dark">Revision En Casa</button>
         </div>
       );
     }
