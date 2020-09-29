@@ -6,7 +6,7 @@ class Contenido extends Component {
   render() {
     return(
       <div>
-        
+      <h4>Contenido</h4>
       <div className="parrafos">
         <p>Es un proyecto en el cual los dueños de las mascotas, tendrán información de los productos y las mascotas 
           que tiene como objetivo informarle al cliente sobre el cuidado adecuado de una mascota como “ Proplan ” 

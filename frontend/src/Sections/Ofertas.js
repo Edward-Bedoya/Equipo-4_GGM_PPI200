@@ -4,7 +4,9 @@ import ofertas from "./img/Ofertasimg"
 class Ofertas extends Component {
     render() {
       return(
+        
         <div className="cuido">
+          
           {ofertas.map((items)=>{
               return(
                   <div className="imgcontenedor">

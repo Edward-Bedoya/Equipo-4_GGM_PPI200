@@ -1,12 +1,11 @@
 import React from 'react';
-import Ofertas from "./Sections/Ofertas";
 import Menu from "./Sections/Menu";
-import Contenido from './Sections/Contenido';
+import Ofertas from './Sections/Ofertas';
 export default function App() {
   return (
     <div className="App">
       <Menu />
-      < Contenido/>
+      < Ofertas/>
       
     </div>
   );
