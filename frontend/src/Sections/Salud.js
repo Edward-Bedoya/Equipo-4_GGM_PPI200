@@ -45,3 +45,4 @@ class Salud extends Component {
   }
   
   export default Salud;
+  

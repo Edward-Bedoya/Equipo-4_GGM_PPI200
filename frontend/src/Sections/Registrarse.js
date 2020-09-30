@@ -64,8 +64,13 @@ class Registrarse extends Component {
           </div>
           <div class="dropdown-divider">,</div>
           <button type="button" class="btn btn-outline-dark">Entrar</button> 
+          <div class="spinner-border text-primary" role="status">
+          <span class="sr-only">Loading...</span>
+</div>
+
           <p> O </p>
           <p> 
+            
           <a href="#">Iniciar sin registrarte </a></p>    
         </form>
         

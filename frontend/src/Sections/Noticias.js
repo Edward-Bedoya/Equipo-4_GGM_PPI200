@@ -6,16 +6,21 @@ class Noticias extends Component {
       return(
         
         <div className="cuido">
-                        <div class="p-3 mb-2 bg-dark text-white">Noticias</div>
+          
           {noticias.map((items)=>{
               return(
                   
                   <div className="imgcontenedor">
+                    <div class="p-3 mb-2 bg-dark text-white">Noticias</div>
                   <img className="imgproductos" src={items.foto} />
-    
+                  
+                  <h3>¿Cuidados para tu perro?</h3>
+                  
                   <div>
+                    
                       <h3>{items.Precio}</h3>
                       </div>
+                      
                       <button className="btn btn-primary">Comprar</button>
                 <button className="btn btn-secondary">Info</button>
                 

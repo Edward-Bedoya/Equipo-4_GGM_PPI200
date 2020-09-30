@@ -13,7 +13,7 @@ class Pagos extends Component { render() {
              <h3>{items.Precio}</h3>
              <p>{items.Descripcion}</p>
                 </div>
-                <button className="btn btn-primary">35.900</button>
+                <button className="btn btn-primary">148.900</button>
                 <button className="btn btn-secondary">Comprar</button>
                 
 
