@@ -5,10 +5,12 @@ class Salud extends Component {
     render() {
       return(
         <div className="cuido">
-          <h2>Salud</h2>
+          <a class="btn btn-primary" href="#" role="button">Consejos En Casa</a>
+          <div class="dropdown-divider">,</div>
           {comida.map((items)=>{
               return(
                   <div className="imgcontenedor">
+                     <div class="p-3 mb-2 bg-dark text-white">Salud</div>
                   <img className="imgproductos" src={items.foto} />
                   <div>
                       <h3>{items.Precio}</h3>
@@ -36,7 +38,6 @@ class Salud extends Component {
     </li>
   </ul>
 </nav>
-<button type="button" class="btn btn-dark">Consejos En Casa</button>
         </div>
         
       );

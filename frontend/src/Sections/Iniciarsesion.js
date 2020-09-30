@@ -5,11 +5,13 @@ class Iniciarsesion extends Component {
   render() {
     return(
       <div className="padre">
+             <div class="p-3 mb-2 bg-dark text-white">Bienvenido</div>
         <form className="formulario">
         <div>
         <img src={logo} className="logoImg"/>
         </div>
-        <h3 className="tituloIS">Iniciar Sesion</h3>
+        <div class="p-3 mb-2 bg-dark text-white">Iniciar Sesion</div>
+        
           <input type="text" placeholder="Usuario o Email" className="infoInput" />
           <input type="text" placeholder="Contraseña" className="infoInput" />
           <div className="elboton">

@@ -6,7 +6,7 @@ class Eventos extends Component {
       return(
         
         <div className="cuido">
-           <h2>Even</h2>
+                        <div class="p-3 mb-2 bg-dark text-white">Eventos</div>
           {eventos.map((items)=>{
               return(
                   

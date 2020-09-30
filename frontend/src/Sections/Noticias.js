@@ -6,7 +6,7 @@ class Noticias extends Component {
       return(
         
         <div className="cuido">
-           <h2>Noticias</h2>
+                        <div class="p-3 mb-2 bg-dark text-white">Noticias</div>
           {noticias.map((items)=>{
               return(
                   

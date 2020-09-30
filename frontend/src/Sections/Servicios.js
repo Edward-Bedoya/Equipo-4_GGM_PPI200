@@ -4,10 +4,10 @@ import servicios from "./img/Serviciosimg"
 class Servicios extends Component { render() {
       return(
     <div className="cuido">
-      <h2>Servicios</h2>
      {servicios.map((items)=>{
         return(
              <div className="imgcontenedor">
+               <div class="p-3 mb-2 bg-dark text-white">Servicios</div>
              <img className="imgservicios" src={items.foto} />
              <div>
              <h3>{items.Precio}</h3>

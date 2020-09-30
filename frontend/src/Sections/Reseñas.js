@@ -7,10 +7,11 @@ class Reseñas extends Component{
 	render(){
 		return(
 			<div>
+				<div class="p-3 mb-2 bg-dark text-white">Reseñas</div>
 			<div className="contenedorDeReseñas">
 				<div>
 				</div>
-				<h2>Reseñas</h2>
+				
 				<div className="preguntas">
 					<h3>¿Cuidados para tu perro?</h3>
 				</div>
@@ -119,7 +120,8 @@ class Reseñas extends Component{
 					</div>	
 				</div>
 			</div>
-			<button type="button" class="btn btn-outline-success">Hacer Una Pregunta</button>
+			<div class="dropdown-divider">,</div><input type="text" placeholder="Hacer una pregunta" className="infoInput" />
+			<div class="p-3 mb-2 bg-dark text-white">Alegres Patitas</div>
 			</div>
 		);
 	}

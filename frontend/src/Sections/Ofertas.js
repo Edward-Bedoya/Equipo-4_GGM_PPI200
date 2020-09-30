@@ -6,7 +6,7 @@ class Ofertas extends Component {
       return(
         
         <div className="cuido">
-          
+                   <div class="p-3 mb-2 bg-dark text-white">Ofertas</div>
           {ofertas.map((items)=>{
               return(
                   <div className="imgcontenedor">

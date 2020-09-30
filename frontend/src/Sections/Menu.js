@@ -42,7 +42,14 @@ class Menu extends Component {
         <a class="nav-link" href="#">Ofertas</a>
         <a class="nav-link" href="#">Eventos</a>
         <a class="nav-link" href="#">Noticias</a>
-        <a class="nav-link" href="#">Salud</a>
+        <div class="dropdown mr-1">
+    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+      Salud
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+    <a class="dropdown-item" href="#">Cuidados</a>
+    </div>
+   </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

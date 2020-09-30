@@ -4,7 +4,7 @@ import pagos from "./img/Pagosimg"
 class Pagos extends Component { render() {
       return(
     <div className="cuido">
-      <h2>Medios De Pago</h2>
+                <div class="p-3 mb-2 bg-dark text-white">Metodos De Pago</div>
      {pagos.map((items)=>{
         return(
              <div className="imgcontenedor">
@@ -59,7 +59,9 @@ class Pagos extends Component { render() {
       </div>
     </div>
   </div>
+  <div class="dropdown-divider">,</div>
 </div>
+
           <button type="button" class="btn btn-dark">Pago Por Contra Entrega</button>
         </div>
       );
