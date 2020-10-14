@@ -42,6 +42,7 @@ Ante estas situaciones las dudas corren tan rápido como las actualizaciones de 
 En Alegres Patitas® creemos que cuando las mascotas y las personas se unen la vida es mejor.
       </div>
     </div>
+    
   </div>
   <div class="card">
     <div class="card-header" id="headingTwo">

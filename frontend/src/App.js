@@ -1,11 +1,11 @@
 import React from 'react';
 import Menu from "./Sections/Menu";
-import Pagos from './Sections/Pagos';
+import Ajustes from './Sections/Ajustes';
 export default function App() {
   return (
     <div className="App">
       <Menu />
-      < Pagos/>
+      < Ajustes/>
       
     </div>
   );

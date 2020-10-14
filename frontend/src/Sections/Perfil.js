@@ -19,7 +19,7 @@ class Perfil extends Component {
           <div class="dropdown-divider">,</div>
           <p>Recuerda que puedes hacer parte del cambio ama a tu mascota.</p>
           <div class="p-3 mb-2 bg-dark text-white">Opciones</div>
-          <button type="button" class="btn btn-dark">Borrar Cuenta</button>
+          <button type="button" class="btn btn-outline-danger">Borrar Cuenta</button>
           <div class="dropdown-divider">,</div>
           <button type="button" class="btn btn-dark">Historial De Compras</button>
           <div className="elboton">

@@ -14,7 +14,7 @@ class Productos extends Component {
                       <h3>{items.Precio}</h3>
               <p>{items.Descripcion}</p>
                       </div>
-                      <button type="button" class="btn btn-dark">Comprar</button>
+                      <button type="button" class="btn btn-outline-success">Comprar</button>
 
 
                   </div>

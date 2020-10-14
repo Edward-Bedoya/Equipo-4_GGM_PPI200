@@ -9,7 +9,9 @@ class Ajustes extends Component {
         <div>
         <div class="p-3 mb-2 bg-dark text-white">Ajustes</div>
         <div class="dropdown-divider">,</div>
+        
         </div>
+        
         <button type="button" class="btn btn-primary">Regresar</button>  
         <div class="dropdown-divider">,</div>
           <p>Si se aplican los buenos cuidados en la alimentación de la mascota tendría una mejor calidad de vida y una salud estable.</p>
@@ -21,6 +23,11 @@ class Ajustes extends Component {
           <div class="dropdown-divider">,</div>
           <div className="elboton">
           <div class="dropdown">
+          <div class="dropdown-divider">,</div>
+          <div class="dropdown-divider">,</div><button type="button" class="btn btn-dark">Cambiar Foto De Perfil</button>
+          <button type="button" class="btn btn-dark">Cambiar Nombre De Usuario</button>
+            
+            
               
           <div class="dropdown">
   <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

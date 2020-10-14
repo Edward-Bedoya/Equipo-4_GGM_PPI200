@@ -14,7 +14,7 @@ class Ofertas extends Component {
                   <div>
                       <h3>{items.Precio}</h3>
                       </div>
-                      <button className="btn btn-primary">Comprar</button>
+                      <button type="button" class="btn btn-outline-success">Comprar</button>
                 <button className="btn btn-secondary">Info</button>
 
 

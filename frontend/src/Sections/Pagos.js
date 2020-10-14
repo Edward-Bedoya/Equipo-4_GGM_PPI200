@@ -14,7 +14,7 @@ class Pagos extends Component { render() {
              <p>{items.Descripcion}</p>
                 </div>
                 <button className="btn btn-primary">148.900</button>
-                <button className="btn btn-secondary">Comprar</button>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
                 
 
                   </div>

@@ -40,7 +40,6 @@ class Menu extends Component {
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Ofertas</a>
-        <a class="nav-link" href="#">Eventos</a>
         <a class="nav-link" href="#">Noticias</a>
         <div class="dropdown mr-1">
     <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
