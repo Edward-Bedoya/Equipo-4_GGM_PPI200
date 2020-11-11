@@ -12,12 +12,14 @@ import Container from './Sections/Container';
 import Productos from "./Sections/Productos";
 import Ofertas from "./Sections/Ofertas";
 import Pagos from './Sections/Pagos';
+import Nosotros from './Sections/Nosotros';
+import Noticias from './Sections/Noticias';
 export default function App() {
   return (
     <Router>
       <Switch>
         <Container>
-        <Route path="/">
+        <Route exact path="/">
             <Contenido />
           </Route>
           <Route path="/productos">
@@ -29,6 +31,13 @@ export default function App() {
           <Route path="/pagos">
             <Pagos />
           </Route>
+           <Route path="/nosotros">
+            <Nosotros />
+          </Route>
+          <Route path="/noticias">
+            <Noticias />
+          </Route>
+          
         </Container>
          
           
