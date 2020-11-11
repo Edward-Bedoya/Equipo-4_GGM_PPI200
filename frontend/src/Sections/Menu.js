@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { Link } from "react-router-dom";
 import "./estilos.css"
 import Logo from "./img/logo.png"
 
@@ -36,10 +37,10 @@ class Menu extends Component {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Productos <span class="sr-only">(current)</span></a>
+      <Link to="/productos">Productos</Link>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Ofertas</a>
+      <Link to="/ofertas">Ofertas</Link>
         <a class="nav-link" href="#">Noticias</a>
         <div class="dropdown mr-1">
     <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">

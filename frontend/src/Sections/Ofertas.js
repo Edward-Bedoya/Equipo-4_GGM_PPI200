@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import { Link } from "react-router-dom";
 import "./estilos.css"
 import ofertas from "./img/Ofertasimg"
 class Ofertas extends Component {
@@ -14,7 +15,7 @@ class Ofertas extends Component {
                   <div>
                       <h3>{items.Precio}</h3>
                       </div>
-                      <button type="button" class="btn btn-outline-success">Comprar</button>
+                      <button type="button" class="btn btn-outline-success"><Link to="/pagos">Comprar</Link></button>
                 <button className="btn btn-secondary">Info</button>
 
 
