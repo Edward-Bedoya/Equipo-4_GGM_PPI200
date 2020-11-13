@@ -14,6 +14,9 @@ import Ofertas from "./Sections/Ofertas";
 import Pagos from './Sections/Pagos';
 import Nosotros from './Sections/Nosotros';
 import Noticias from './Sections/Noticias';
+import Salud2 from './Sections/Salud2';
+import Salud from './Sections/Salud';
+
 export default function App() {
   return (
     <Router>
@@ -36,6 +39,12 @@ export default function App() {
           </Route>
           <Route path="/noticias">
             <Noticias />
+          </Route>
+          <Route path="/salud2">
+            <Salud2 />
+          </Route>
+          <Route path="/salud">
+            <Salud />
           </Route>
           
         </Container>

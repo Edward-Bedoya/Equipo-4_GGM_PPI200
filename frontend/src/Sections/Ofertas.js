@@ -16,7 +16,17 @@ class Ofertas extends Component {
                       <h3>{items.Precio}</h3>
                       </div>
                       <button type="button" class="btn btn-outline-success"><Link to="/pagos">Comprar</Link></button>
-                <button className="btn btn-secondary">Info</button>
+                      <div class="dropdown">
+                        <div class="dropdown-divider">,</div>
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Informacion
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Cepillar previamente el pelo de su mascota.
+     Aplicar el Spray CanAmor directamente sobre el pelo del animal a una distancia mínima de 20 centímetros, 
+     evitando que caiga en la cara y órganos reproductores.</a>
+  </div>
+</div>
 
 
                   </div>

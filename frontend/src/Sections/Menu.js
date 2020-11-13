@@ -38,16 +38,20 @@ class Menu extends Component {
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
       <Link to="/productos">Productos</Link>
+      <div class="dropdown-divider">,</div>
       </li>
       <li class="nav-item">
       <Link to="/ofertas">Ofertas</Link>
-        <a class="nav-link" href="#">Noticias</a>
+      <div class="dropdown-divider">,</div>
+      <Link to="/noticias">Noticias</Link>
         <div class="dropdown mr-1">
     <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
       Salud
     </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-    <a class="dropdown-item" href="#">Cuidados</a>
+    <Link to="/salud2">Cuidados</Link>
+    <div class="dropdown-divider">.</div>
+    <Link to="/salud">Recomendaciones</Link>
     </div>
    </div>
       </li>

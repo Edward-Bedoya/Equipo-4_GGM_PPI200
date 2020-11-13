@@ -5,7 +5,7 @@ class Piedepagina extends Component {
   render() {
     return(
       <div>
-      <h4>Contenido</h4>
+      <h4>Info</h4>
       <div className="parrafos">
         <p>Medellin</p>
         <p>Colombia</p>

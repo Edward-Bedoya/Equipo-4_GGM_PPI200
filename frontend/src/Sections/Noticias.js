@@ -15,14 +15,12 @@ class Noticias extends Component {
                   <img className="imgproductos" src={items.foto} />
                   
                   <h3>¿Cuidados para tu perro?</h3>
-                  
                   <div>
                     
                       <h3>{items.Precio}</h3>
                       </div>
                       
-                      <button className="btn btn-primary">Comprar</button>
-                <button className="btn btn-secondary">Info</button>
+                      <button className="btn btn-primary">Ver</button>
                 
                   </div>
                   
@@ -36,9 +34,9 @@ class Noticias extends Component {
     <li class="page-item"><a class="page-link" href="#">1</a></li>
     <li class="page-item"><a class="page-link" href="#">2</a></li>
     <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#">Siguiente</a>
+    <li class="page-item"> 
     </li>
+    <a class="page-link" href="#">Siguiente</a>
   </ul>
 </nav>
 

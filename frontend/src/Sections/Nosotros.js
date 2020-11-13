@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./estilos.css";
 
 class Nosotros extends Component {
@@ -30,6 +31,7 @@ class Nosotros extends Component {
           necesarios para así evitar enfermedades u otro tipo de dolencias. 
           Las causas son muy diversas hay de distintos tipos, como en lo económico,
            en lo personal y más que todo en el cuidado que se le debe de dar a la mascota.</p>
+           <button type="button" class="btn btn-outline-success"><Link to="contenido">Ocultar</Link></button>
         </div>
         </div>
     );
